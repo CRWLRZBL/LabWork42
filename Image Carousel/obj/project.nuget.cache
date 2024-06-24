@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZcWHAtSKMkh/W8tJTI6DFl/Qw6WnRmfg6U8cvQSJbU7eb7lW7FIt7No7NOCcipAJfvYNS4Ql4nVAxfSEwmUwOQ==",
+  "success": true,
+  "projectFilePath": "C:\\Temp\\ISPP-35\\LabWork42\\Image Carousel\\Image Carousel.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Вы выполняете операцию ''restore'' с источником ''HTTP'', ''http://nuget.iis.softsol.local/nuget''. Доступ без HTTPS будет удален в будущей версии. Рассмотрите возможность перехода на источник ''HTTPS''."
+    }
+  ]
+}

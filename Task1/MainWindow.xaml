@@ -1,0 +1,24 @@
+﻿<Window x:Class="Task1.InkCanvas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1"
+        mc:Ignorable="d"
+        Title="InkCanvas" Height="550" Width="800">
+    <StackPanel>
+        <Button Content="Выберите изображение" Click="LoadImage_Click"/>
+        <Image x:Name="addImage" Stretch="Uniform" Height="200" Width="400"/>
+        <Border BorderBrush="Black" BorderThickness="1">
+            <InkCanvas x:Name="canvas"/>
+        </Border>
+
+        <Menu>
+            <MenuItem x:Name="lightPink" Header="LightPink" Checked="ChangePenColor" Click="LightPink_Click"/>
+            <MenuItem x:Name="lightBlue" Header="LightBlue" Checked="ChangePenColor" Click="LightBlue_Click"/>
+            <MenuItem x:Name="lightCayan" Header="LightCyan" Checked="ChangePenColor" Click="LightCayan_Click"/>
+            <MenuItem x:Name="changeThickness" Header="+" Checked="ChangeThickness_Checked" Click="ChangeThickness_Click"/>
+            <MenuItem x:Name="changeThickness2" Header="-" Checked="ChangeThickness_Checked" Click="ChangeThickness_Click2"/>
+        </Menu>
+    </StackPanel>
+</Window>
